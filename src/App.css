@@ -84,7 +84,8 @@
   color: white; /* Text color */
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
   position: relative; /* Set position to relative */
-  z-index: 10; /* Ensure it appears above other elements */
+  z-index: 1000; /* Ensure it appears above other elements */
+  padding-bottom:0;
 }
 /* Background styles */
 .app-container::before {
