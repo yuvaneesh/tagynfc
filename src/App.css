@@ -105,7 +105,7 @@
 }
 
 .app-container::after {
-  content: '';
+  content: '*';
   position: absolute;
   bottom: -25px;
   left: 0;
