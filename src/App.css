@@ -84,7 +84,7 @@
   left: 0;
   right: 0;
   height: 60%;
-  background: linear-gradient(to top, rgba(14, 99, 199, 1) 0%, rgba(14, 99, 199, 0) 25%), url('./pp.png');
+  background: linear-gradient(to top, rgba(14, 99, 199, 1) 0%, rgba(14, 99, 199, 0) 25%), url('./maazpp.png');
   background-size: cover;
   background-position: center;
   z-index: 0; /* Background should be below the text */
