@@ -16,6 +16,7 @@
   color: white;
   position: relative; /* Establish a positioning context */
   z-index: 1; /* Ensure the container is above the background */
+  animation: fadeIn 1s ease-in-out;
 }
 
 .app-container h1 {
