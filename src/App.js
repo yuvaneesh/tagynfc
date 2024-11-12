@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import ppImage from './pp.png'; // Use relative path
+import ppImage from './maazpp.png'; // Use relative path
 import button1 from './call-icon.png'; // Import your button images
 import button2 from './whatsapp-icon.png';
 import button3 from './email-icon.png';
