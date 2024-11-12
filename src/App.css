@@ -104,7 +104,7 @@
 .tagy-image {
   position: absolute; /* Position it absolutely */
   right: 0; /* Align to the right */
-  top: 80%; /* Center vertically */
+  top: 78%; /* Center vertically */
   transform: translateY(-50%); /* Adjust for perfect centering */
   width: 118px; /* Set width */
   height: 389px; /* Set height */
