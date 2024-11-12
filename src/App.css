@@ -58,6 +58,7 @@
   justify-content: center; /* Center the buttons */
   margin-top: 20px; /* Add some space above the buttons */
   z-index: 2; /* Higher z-index to ensure buttons are on top */
+  bottom:-25px;
 }
 
 .button {
@@ -105,9 +106,9 @@
 }
 
 .app-container::after {
-  content: '*';
+  content: '';
   position: absolute;
-  bottom: -25px;
+  bottom: 0;
   left: 0;
   right: 0;
   height: 40%;
