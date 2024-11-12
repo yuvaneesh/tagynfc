@@ -88,6 +88,7 @@
 }
 /* Background styles */
 .app-container::before {
+  background-attachment: fixed;
   content: '';
   position: absolute;
   top: 0;
