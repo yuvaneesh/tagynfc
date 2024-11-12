@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Yuvaneesh Ravi
+N;CHARSET=UTF-8:Ravi;Yuvaneesh;
+NICKNAME;CHARSET=UTF-8:Yuva
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:yuvaneeshravishanker@gmail.com
+EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:yuva@tagyasia.com
+TEL;TYPE=CELL:+60126055273
+TITLE;CHARSET=UTF-8:IT Infrastructure Engineer
+ORG;CHARSET=UTF-8:Tagy Tech
+URL;type=WORK;CHARSET=UTF-8:www.tagyasia.com
+X-SOCIALPROFILE;TYPE=instagram:https://www.instagram.com/yuva_4b10/
+REV:2024-11-08T08:03:33.746Z
+END:VCARD

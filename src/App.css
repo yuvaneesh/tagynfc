@@ -1,38 +1,113 @@
-.App {
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: relative; /* Establish a positioning context */
+  z-index: 1; /* Ensure the container is above the background */
+}
+
+.app-container h1 {
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+  font-weight: bold; /* Make it bold */
+  font-size: 24px; /* Set font size to 24px */
+  z-index: 1; /* Ensure the text is above the background */
+  position: relative; /* Set position to relative to apply z-index */
+  margin-top: 450px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-container h2 {
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+  font-weight: normal; /* Make it normal */
+  font-size: 15px; /* Set font size to 15px */
+  z-index: 1; /* Ensure the text is above the background */
+  position: relative; /* Set position to relative to apply z-index */
+  margin-top: -10px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-container h3 {
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+  font-weight: bold; /* Make it bold */
+  font-size: 20px; /* Set font size to 20px */
+  z-index: 1; /* Ensure the text is above the background */
+  position: relative; /* Set position to relative to apply z-index */
+  margin-top: 20px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Button Container */
+.button-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center; /* Center the buttons */
+  margin-top: 20px; /* Add some space above the buttons */
+  z-index: 2; /* Higher z-index to ensure buttons are on top */
 }
 
-.App-link {
-  color: #61dafb;
+.button {
+  width: 50px; /* Set the width of the default buttons */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 10px; /* Add space between buttons */
+  margin-top: -25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Specific styles for the new button (Button 4) */
+.button4 {
+  width: 130px; /* Set the width of Button 4 */
+  height: 36px; /* Set the height of Button 4 */
+  margin-top: 2px;
+}
+
+/* Style for the Locate Me text */
+.locate-me {
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+  font-weight: normal; /* Make it bold */
+  font-size: 16px; /* Set font size */
+  margin-top: 10px; /* Add some space above the text */
+  text-align: center; /* Center the text */
+  color: white; /* Text color */
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+  position: relative; /* Set position to relative */
+  z-index: 10; /* Ensure it appears above other elements */
+}
+/* Background styles */
+.app-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60%;
+  background: linear-gradient(to top, rgba(14, 99, 199, 1) 0%, rgba(14, 99, 199, 0) 25%), url('./pp.png');
+  background-size: cover;
+  background-position: center;
+  z-index: 0; /* Background should be below the text */
+}
+
+.app-container::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  background-color: #0e63c7;
+  z-index: 0; /* Background should be below the text */
+}
+
+.tagy-image {
+  position: absolute; /* Position it absolutely */
+  right: 0; /* Align to the right */
+  top: 76%; /* Center vertically */
+  transform: translateY(-50%); /* Adjust for perfect centering */
+  width: 118px; /* Set width */
+  height: 389px; /* Set height */
+  z-index: 1; /* Ensure it appears above other elements */
+  
 }
