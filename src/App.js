@@ -33,21 +33,21 @@ function App() {
   return (
     <div className="app-container">
       <h1>Mohammed Maaz Javid</h1>
-      <h2>IT Infrastructure Engineer</h2>
+      <h2>Software Engineer Inten</h2>
       <h3>Connect with me on</h3>
       
       {/* Button Container */}
       <div className="button-container">
-        <a href="tel:+60126055273" target="_blank" rel="noopener noreferrer">
+        <a href="tel:+60102906569" target="_blank" rel="noopener noreferrer">
           <img src={button1} alt="Call" className="button" />
         </a>
         <a href="tel:+60122205649" target="_blank" rel="noopener noreferrer">
           <img src={button6} alt="Office Call" className="button" />
         </a>
-        <a href="https://wa.me/+60126055273" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/+60102906569" target="_blank" rel="noopener noreferrer">
           <img src={button2} alt="WhatsApp" className="button" />
         </a>
-        <a href="mailto:yuvaneeshravishanker@gmail.com" target="_blank" rel="noopener noreferrer">
+        <a href="mailto:maazjaved5@gmail.com" target="_blank" rel="noopener noreferrer">
           <img src={button3} alt="Email" className="button" />
         </a>
       </div>
