@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>Yuvaneesh Ravi</h1>
+      <h1>Mohammed Maaz Javid</h1>
       <h2>IT Infrastructure Engineer</h2>
       <h3>Connect with me on</h3>
       
